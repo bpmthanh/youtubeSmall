@@ -218,11 +218,16 @@
    }
 }
 
+@media (min-width: 1024px) {
+    .col-11{
+        zoom: 94.5%;
+    }
+ }
 
 /* Mobile < 380px */
 @media (max-width: 24em) {
     .product_video-img-main-X {
-        width: 350px !important;
+        width: 337px !important;
         height: 180px !important;
     }
 
