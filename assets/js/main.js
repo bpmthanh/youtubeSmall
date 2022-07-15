@@ -381,6 +381,8 @@ micClose.onclick = () => {
 };
 
 //Listener click on overlay
+
+//Document.getElementById('overlay').classList.add('overlay');
 micOverlay.onclick = () => {
     micClickBtn.classList.remove('mic_click');
 };
